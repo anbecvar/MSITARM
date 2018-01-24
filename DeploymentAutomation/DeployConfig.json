@@ -1,0 +1,108 @@
+{
+  "MasterBranch": {
+    "CPTArm": {
+      "Subcription": "MSIT-CPTARM-01",
+      "ResourceGroup": "cptarm",
+      "StorageAccount": "cptarm",
+      "Container": "nestedcontent"
+    },
+    "CPTArmDeployPortal": {
+      "Subcription": "MSIT-CPTARM-01",
+      "ResourceGroup": "cptarm",
+      "StorageAccount": "cptarm",
+      "Container": "msitcustom"
+    },
+    "ManagedApplication": {
+      "Subcription": "MSIT-CPTARM-01",
+      "ResourceGroup": "cptarm",
+      "StorageAccount": "cptarm",
+      "Container": "managedapp",
+      "Details":  [
+        {
+          "Name": "ManagedWindowsVMServer",
+          "DisplayName": "Managed Windows VM Server",
+          "Description": "Managed single/multiple Windows/SQL Servers",
+          "Location": "East US 2",
+          "AuthrizationGroupID": "b055dd52-45f8-4fb7-99c0-5b4fe3c99bee",
+          "AuthrizationRoleID": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635"
+        },
+        {
+          "Name": "ManagedWindowsVMServer2",
+          "DisplayName": "Managed Windows VM Server2",
+          "Description": "Managed single/multiple Windows/SQL Servers",
+          "Location": "East US 2",
+          "AuthrizationGroupID": "b055dd52-45f8-4fb7-99c0-5b4fe3c99bee",
+          "AuthrizationRoleID": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635"
+        }
+      ]
+    }
+  },
+  "BetaBranch": {
+    "CPTArm": {
+      "Subcription": "MSIT-CPTARM-01",
+      "ResourceGroup": "cptarm",
+      "StorageAccount": "cptarm",
+      "Container": "nestedcontent"
+    },
+    "CPTArmDeployPortal": {
+      "Subcription": "MSIT-CPTARM-01",
+      "ResourceGroup": "cptarm",
+      "StorageAccount": "cptarm",
+      "Container": "msitcustom"
+    },
+    "ManagedApplication": {
+      "Subcription": "MSIT-CPTARM-01",
+      "ResourceGroup": "cptarm",
+      "StorageAccount": "cptarm",
+      "Container": "managedapp",
+      "Details": [
+        {
+          "Name": "ManagedWindowsVMServer",
+          "DisplayName": "Managed Windows VM Server",
+          "Description": "Managed single/multiple Windows/SQL Servers",
+          "Location": "East US 2",
+          "AuthrizationGroupID": "b055dd52-45f8-4fb7-99c0-5b4fe3c99bee",
+          "AuthrizationRoleID": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635"
+        },
+        {
+          "Name": "ManagedWindowsVMServer2",
+          "DisplayName": "Managed Windows VM Server2",
+          "Description": "Managed single/multiple Windows/SQL Servers",
+          "Location": "East US 2",
+          "AuthrizationGroupID": "b055dd52-45f8-4fb7-99c0-5b4fe3c99bee",
+          "AuthrizationRoleID": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635"
+        }
+      ]
+    }
+  },
+  "DevelopBranch": {
+    "CPTArm": {
+      "Subcription": "MSIT-CPTARM-01",
+      "ResourceGroup": "cptarm",
+      "StorageAccount": "cptarm",
+      "Container": "nestedcontent"
+    },
+    "CPTArmDeployPortal": {
+      "Subcription": "MSIT-CPTARM-01",
+      "ResourceGroup": "cptarm",
+      "StorageAccount": "cptarm",
+      "Container": "msitcustom"
+    },
+    "ManagedApplication": {
+      "Subcription": "MSIT-CPTARM-01",
+      "ResourceGroup": "cptarm",
+      "StorageAccount": "cptarm",
+      "Container": "managedapp",
+      "Details": [
+        {
+          "Name": "ManagedWindowsVMServer",
+          "DisplayName": "Managed Windows VM Server",
+          "Description": "Managed single/multiple Windows/SQL Servers2",
+          "Location": "East US 2",
+          "AuthrizationGroupID": "b055dd52-45f8-4fb7-99c0-5b4fe3c99bee",
+          "AuthrizationRoleID": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635"
+        }
+      ]
+    }
+  }
+}
